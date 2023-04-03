@@ -39,6 +39,7 @@ a{
     text-decoration: none;
 }
 
+
   nav{
     display: flex;
     justify-content: space-between;
@@ -100,16 +101,33 @@ a{
   /* Main  */
   .imagenPresentacion{
     display: flex;
+    position: relative;
+    width: 100%;
+    height: 40em;
+    align-items: center;
     justify-content: center;
-    
+    background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  main div img{
-    width: 55%;
-    border-radius: 20%;
-    box-shadow: 3px 5px 10px rgb(0, 0, 0);
+  .imagenPresentacion img{
+    width: 100%;
+    height: 40em;
+    object-fit: cover;
+  
   }
 
-
+  .imagenPresentacion h2{
+    display: inline-flex;
+    height: 40px;
+    color:rgb(214, 232, 232);
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: bolder;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   
 
