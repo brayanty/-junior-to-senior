@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+button {
+    font-size: 1-5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(4, 0, 255);
+    transition: color 300ms, background-color 350ms;
+}
+
+button:hover {
+    color: rgb(66, 212, 122);
+    background-color: rgb(129, 80, 175);
+    box-shadow: 2px 2px 10px rgba(218, 52, 52, 0.5);
+}
+
+a:link,
+a:active,
+a:hover {
+    text-decoration: none;
+
+}
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+header .container{
+    color: rgb(74, 194, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #470b29;
+}
+
+header .nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+header .nav-links a{
+    margin-top: 10px;
+    padding: 10px;
+    transition: background-color 450ms;
+    border-radius: 30px;
+}
+header .nav-links a:hover{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 214);
+    cursor: pointer;
+}
+
+main #hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    flex-direction: column;
+    background-image: linear-gradient(0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("img/peakpx.jpg");
+    height:90vh ;
+    background-position: top center;
+}
+
+main #hero h3,main #hero p{
+    color: white;
+    margin: 5px 0px;
+
+}
+main #hero button{
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.presentacion .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    
+
+}
+.presentacion .container .text h3{
+    margin-bottom: 20px;
+}
+
+.cartas{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.cartas h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+.container .carta h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.container .carta p{
+    margin-bottom: 5PX;
+}
+
+.carta {
+    background-size: cover;
+    background-position: top center;
+    padding: 70px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/629544.jpg");
+}
+
+.carta:nth-child(2) {
+    background-position: center top;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/692362.png");
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/713297.png");
+}
